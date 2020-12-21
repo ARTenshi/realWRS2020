@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locations>
+  <room name="house" position="0.0 0.0 0.0 0.0">
+    <!--New (06192019~)-->
+    <location name="front entrance" global_position="0.29 0.25 0.00 -2.43" put_position="0 0 0" isDoor="false" />
+    <location name="room center" global_position="-1.35 -0.31 0.00 -0.16" put_position="0 0 0" isDoor="false" />
+    <location name="tall table" global_position="0.41 -0.67 0.60 -1.57" put_position="0 0 0" isDoor="false" />
+    <location name="large table left" global_position="-0.24 -0.68 0.40 -1.58" put_position="0 0 0" isDoor="false" />
+    <location name="large table center" global_position="-0.67 -0.71 0.40 -1.58" put_position="0 0 0" isDoor="false" />
+    <location name="large table right" global_position="-1.14 -0.70 0.40 -1.57" put_position="0 0 0" isDoor="false" />
+    <location name="drawer left close" global_position="-0.81 0.12 0.35 1.54" put_position="0 0 0" isDoor="false" />
+    <location name="drawer left open" global_position="-0.80 -0.22 0.35 1.54" put_position="0 0 0" isDoor="false" />
+    <location name="drawer top close" global_position="-0.48 0.12 0.60 1.55" put_position="0 0 0" isDoor="false" />
+    <location name="drawer top open" global_position="-0.47 -0.08 0.60 1.53" put_position="0 0 0" isDoor="false" />
+    <location name="drawer bottom close" global_position="-0.47 0.12 0.35 1.52" put_position="0 0 0" isDoor="false" />
+    <location name="drawer bottom open" global_position="-0.47 -0.21 0.35 1.51" put_position="0 0 0" isDoor="false" />
+    <location name="container 1" global_position="-1.15 0.25 0.51 1.53" put_position="0 0 0" isDoor="false" />
+    <location name="container 2" global_position="-1.41 0.35 0.51 1.54" put_position="0 0 0" isDoor="false" />
+    <location name="tray 1" global_position="-1.68 0.22 0.40 1.57" put_position="0 0 0" isDoor="false" />
+    <location name="tray 2" global_position="-2.00 0.24 0.40 1.57" put_position="0 0 0" isDoor="false" />
+    <location name="basket 1" global_position="-2.31 0.23 0.33 1.52" put_position="0 0 0" isDoor="false" />
+    <location name="basket 2" global_position="-2.31 0.23 0.33 1.52" put_position="0 0 0" isDoor="false" />
+    <location name="living room entrance" global_position="-2.14 -2.59 0.0 -0.72" put_position="0 0 0" isDoor="false" />
+    <location name="living room delivery" global_position="-0.74 -2.86 0.0 0.02" put_position="0 0 0" isDoor="false" />
+    <location name="shelf top" global_position="-1.03 -3.29 1.065 -1.63" put_position="0 0 0" isDoor="false" />
+    <location name="shelf middle" global_position="-1.03 -3.29 0.805 -1.63" put_position="0 0 0" isDoor="false" />
+    <location name="shelf bottom" global_position="-1.03 -3.30 0.515 -1.63" put_position="0 0 0" isDoor="false" />
+    <location name="unknown office" global_position="-2.31 0.23 0.33 1.52" put_position="0 0 0" isDoor="false" />
+    <location name="unknown living room" global_position="-2.31 0.23 0.33 1.52" put_position="0 0 0" isDoor="false" />
+  </room>
+
+  <room name="house search" position="0.0 0.0 0.0 0.0">
+
+    <location name="00 search office floor corner lateral" global_position="-2.04 -0.012 0.0 -0.754" put_position="0 0 0" isDoor="false"/>
+    <location name="01 search office floor corner" global_position="-1.55 -0.012 0.0 -1.61" put_position="0 0 0" isDoor="false"/>
+
+    <location name="02 search office floor large table right lateral" global_position="-1.55 -0.012 0.0 -0.754" put_position="0 0 0" isDoor="false"/>
+    <location name="03 search office floor large table right" global_position="-1.05 -0.012 0.0 -1.61" put_position="0 0 0" isDoor="false"/>
+
+    <location name="04 search office floor large table center lateral" global_position="-1.05 -0.012 0.0 -0.754" put_position="0 0 0" isDoor="false"/>
+    <location name="05 search office floor large table center" global_position="-0.55 -0.012 0.0 -1.61" put_position="0 0 0" isDoor="false"/>
+
+    <location name="06 search office floor large table left latearl" global_position="-0.55 -0.012 0.0 -0.754" put_position="0 0 0" isDoor="false"/>
+    <location name="07 search office floor large table left" global_position="-0.08 -0.012 0.0 -1.61" put_position="0 0 0" isDoor="false"/>
+
+    <location name="08 search office floor tall table lateral" global_position="-0.08 -0.12 0.0 -0.754" put_position="0 0 0" isDoor="false"/>
+    <location name="09 search office floor tall table" global_position="0.46 -0.27 0.0 -1.61" put_position="0 0 0" isDoor="false"/>
+
+    <location name="06 search office large table center" global_position="-0.67 -0.71 0.40 -1.58" put_position="0 0 0" isDoor="false"/>
+    <location name="07 search office tall table" global_position="0.41 -0.67 0.60 -1.57" put_position="0 0 0" isDoor="false"/>
+
+    <location name="10 search living room floor" global_position="0.0 0.0 0.0 0.0" put_position="0 0 0" isDoor="false"/>
+
+    <location name="90 search demo tall table" global_position="0.33 -0.56 0.60 -1.58" put_position="0 0 0" isDoor="false"/>
+    <location name="91 search demo floor" global_position="-0.63 0.01 0.0 -1.58" put_position="0 0 0" isDoor="false"/>
+
+  </room>
+</locations>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+
+  <category name="toys" room="office">
+    <object name="cube" defaultLocation="drawer left open" />
+    <object name="headgehog" defaultLocation="drawer left open" />
+    <object name="toy block" defaultLocation="drawer left open"/>
+    <object name="fire engine" defaultLocation="drawer left open"/>
+    <object name="whistle" defaultLocation="drawer left open"/>
+    <object name="police car" defaultLocation="drawer left open"/>
+    <object name="horn" defaultLocation="drawer left open"/>
+  </category>
+
+  <category name="tableware" room="bedroom">
+    <object name="blown bottle" defaultLocation="drawer top open" />
+    <object name="yellow bottle" defaultLocation="drawer top open"/>
+    <object name="yellow dish" defaultLocation="drawer top open" />
+    <object name="blue cup" defaultLocation="drawer top open"/>
+    <object name="pink cup" defaultLocation="drawer top open"/>
+    <object name="green cup" defaultLocation="drawer top open"/>
+  </category>
+
+  <category name="tools" room="bedroom">
+    <object name="blue pen" defaultLocation="drawer bottom open" />
+    <object name="blush" defaultLocation="drawer bottom open"/>
+    <object name="flash right" defaultLocation="drawer bottom open"/>
+  </category>
+
+  <category name="food" room="living room">
+    <object name="potato" defaultLocation="shelf middle" />
+    <object name="calot" defaultLocation="shelf middle"/>
+    <object name="green apple" defaultLocation="shelf middle"/>
+    <object name="orange" defaultLocation="shelf middle"/>
+    <object name="eggplant" defaultLocation="shelf middle"/>
+    <object name="pepper" defaultLocation="shelf middle"/>
+    <object name="paprika" defaultLocation="shelf middle"/>
+  </category>
+
+  <category name="snaks" room="kitchen">
+    <object name="bread" defaultLocation="shelf bottom" />
+    <object name="chipstar" defaultLocation="shelf bottom"/>
+    <object name="mustard" defaultLocation="shelf bottom"/>
+    <object name="ketchap" defaultLocation="shelf bottom"/>
+  </category>
+
+  <category name="drinks" room="kitchen">
+    <object name="blueberry juice" defaultLocation="shelf bottom"/>
+    <object name="orange juice" defaultLocation="shelf bottom"/>
+    <object name="green tea" defaultLocation="shelf bottom"/>
+    <object name="dr pepper" defaultLocation="shelf bottom"/>
+  </category>
+
+  <category name="unknown" room="house">
+    <object name="unknown" defaultLocation="unknown" />
+  </category>
+
+</categories>
+  
+

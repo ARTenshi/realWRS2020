@@ -1,0 +1,4 @@
+<launch>
+  <!-- sample node -->
+  <node name="tidyup_main" pkg="wrs_challenge" type="tidyup_main.py" output="screen"/>
+</launch>

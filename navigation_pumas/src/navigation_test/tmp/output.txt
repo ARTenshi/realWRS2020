@@ -1,0 +1,118 @@
+
+
+<hsrb80>~$ roslaunch navigation_test navigation_module.launch 
+... logging to /home/roboworks/.ros/log/20190723-230914_e381aa18-ad9e-11e9-8009-0030644ca21c/roslaunch-roboworks-AW-3-12546.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+WARNING: disk usage in log directory [/home/roboworks/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.
+
+started roslaunch server http://169.254.7.81:38597/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /navigation/localization/loc_amcl/initial_pose_a: 0.0
+ * /navigation/localization/loc_amcl/initial_pose_x: 0.0
+ * /navigation/localization/loc_amcl/initial_pose_y: 0.0
+ * /navigation/localization/loc_amcl/laser_min_range: 0.3
+ * /navigation/localization/loc_amcl/odom_alpha1: 0.4
+ * /navigation/localization/loc_amcl/odom_alpha2: 0.4
+ * /navigation/localization/loc_amcl/odom_alpha3: 0.4
+ * /navigation/localization/loc_amcl/odom_alpha4: 0.4
+ * /navigation/localization/loc_amcl/odom_alpha5: 0.4
+ * /navigation/localization/loc_amcl/odom_model_type: omni-corrected
+ * /navigation/localization/loc_amcl/update_min_a: 0.1
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+
+NODES
+  /navigation/path_planning/
+    path_calculator (path_calculator/path_calculator_node)
+    simple_move (simple_move/simple_move_node)
+  /navigation/obs_avoid/
+    obstacle_detector (obs_detect/obs_detect_node)
+  /navigation/localization/
+    loc_amcl (amcl/amcl)
+    map_server (map_server/map_server)
+  /navigation/
+    mvn_pln (mvn_pln/mvn_pln_node)
+  /
+    rviz (rviz/rviz)
+
+ROS_MASTER_URI=http://hsrb80.local:11311
+
+process[rviz-1]: started with pid [12555]
+process[navigation/localization/map_server-2]: started with pid [12556]
+process[navigation/localization/loc_amcl-3]: started with pid [12557]
+process[navigation/path_planning/simple_move-4]: started with pid [12558]
+INITIALIZING A REALLY GOOD SIMPLE MOVE NODE BY MARCOSOFT...
+process[navigation/path_planning/path_calculator-5]: started with pid [12564]
+[ INFO] [1563947594.528035818]: Loading map from image "/home/roboworks/catkin_ws/src/planning/knowledge/navigation/occupancy_grids/hoku20190510.pgm"
+process[navigation/obs_avoid/obstacle_detector-6]: started with pid [12570]
+INITIALIZING PATH CALCULATOR BY MARCOSOFT...
+process[navigation/mvn_pln-7]: started with pid [12572]
+INITIALIZING MOVING PLANNER BY MARCOSOFT...
+[ INFO] [1563947594.550755523]: Read a 2048 X 2048 map @ 0.050 m/cell
+JustinaNavigation.->Setting ros node...
+INITIALIZING OBSTACLE DETECTOR (ONLY LASER) NODE BY MARCOSOFT... 
+ObsDetect.->Using parameters: min_x=0.3	max_x=0.8	min_y=-0.25	max_y0.25	z_threshold0.06
+[ INFO] [1563947594.826919904]: Requesting the map...
+[ INFO] [1563947594.830414692]: Sending map
+[ INFO] [1563947594.835866315]: Received a 2048 X 2048 map @ 0.050 m/pix
+
+[ INFO] [1563947594.911170263]: Initializing likelihood field model; this can take some time on large maps...
+[ INFO] [1563947594.979353725]: Done initializing likelihood field model.
+JustinaManip.->Setting ros node...
+[ERROR] [1563947595.594571673]: Could not load resource [package://hsrb_description/meshes/base_v2/bumper.dae]: Unable to open file "package://hsrb_description/meshes/base_v2/bumper.dae".
+[ERROR] [1563947595.594769246]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.dae' for link 'base_b_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.dae in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+[ERROR] [1563947595.594921676]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.dae' for link 'base_b_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.dae in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+[ERROR] [1563947595.595067762]: Error retrieving file [file:///opt/ros/kinetic/share/hsrb_description/meshes/base_v2/bumper.stl]: Couldn't open file /opt/ros/kinetic/share/hsrb_description/meshes/base_v2/bumper.stl
+[ERROR] [1563947595.595196712]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.stl' for link 'base_b_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.stl in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+[ERROR] [1563947595.595368014]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.stl' for link 'base_b_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.stl in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+[ERROR] [1563947595.595725715]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.dae' for link 'base_f_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.dae in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+[ERROR] [1563947595.595846183]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.dae' for link 'base_f_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.dae in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+[ERROR] [1563947595.595949897]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.stl' for link 'base_f_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.stl in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+[ERROR] [1563947595.596017232]: Could not load model 'package://hsrb_description/meshes/base_v2/bumper.stl' for link 'base_f_bumper_link': OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource package://hsrb_description/meshes/base_v2/bumper.stl in resource group Autodetect or any other group. in ResourceGroupManager::openResource at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreResourceGroupManager.cpp (line 756)
+
+
+MvnPln.->Current state: 0. Waiting for new task...
+
+MvnPln.->Received desired goal pose: 0 0 0
+MvnPln.->New task received...
+MvnPln.->Current state: 2. Calculating path using map, kinect and laser
+MvnPl.->Moving backwards if there is an obstacle before calculating path
+MvnPln.->Moving head to search for obstacles in front of the robot
+MvnPln.->Calculating path with augmented map...
+MvnPln.->Getting occupancy grid from map server... 
+[ INFO] [1563946780.492244724]: Sending map
+MvnPln.->Using cloud to augment map
+MvnPln.->Cannot get point cloud :'(
+MvnPln.->Calculating path with augmented map...
+MvnPln.->Getting occupancy grid from map server... 
+[ INFO] [1563946780.500886095]: Sending map
+MvnPln.->Merging laser scan with occupancy grid
+PathCalculator.-> Calculating by A* from -1.6549  -0.668785  to 0  0
+PathCalculator.->Resulting path by A* has 47 points.
+MvnPln.->Path calculated succesfully by path_calculator using A* using map and laser
+MvnPln.->Current state: 3. Starting move path
+MvnPln.->Turning on collision detection...
+JustinaNavigation.->Enabling obstacle detection... 
+JustinaNavigation.->Publishing goal path..
+SimpleMove.->New path received with 47 points
+ObsDetector.->Starting obstacle detection using point cloud...
+SimpleMove.->Path succesfully executed. (Y)
+MvnPln.->Move path finished succesfully. 
+JustinaNavigation.->Disabling obstacle detection... 
+ObsDetector.->Stopping obstacle detection using point cloud...
+MvnPln.->CurrentState: 6. Correcting final angle
+SimpleMove.->New move received: goal dist= 0 and goal angle= -0.0615753
+SimpleMove.->Successful move with dist=0 angle=-0.0615753
+MvnPln.->Angle correction finished succesfully. 
+MnvPln.->Goal point reached successfully!!!!!!!
+JustinaNavigation.->Disabling obstacle detection... 
+ObsDetector.->Stopping obstacle detection using point cloud...
+OpenCV Error: Null pointer (NULL guiReceiver (please create a window)) in cvDestroyWindow, file /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/highgui/src/window_QT.cpp, line 525
+/tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/highgui/src/window_QT.cpp:525: error: (-27) NULL guiReceiver (please create a window) in function cvDestroyWindow
+

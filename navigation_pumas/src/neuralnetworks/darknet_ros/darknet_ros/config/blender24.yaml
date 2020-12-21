@@ -1,0 +1,36 @@
+yolo_model:
+
+  config_file:
+    name: blender24.cfg
+  weight_file:
+    name: blender24.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - bleachCleanser
+      - bowl
+      - banana
+      - carLegoDuplo
+      - crackerbox
+      - foamBrick
+      - gelatinBox
+      - largeClamp
+      - largeMarker
+      - legoDuplo
+      - masterchef
+      - miniSoccerBall
+      - mug
+      - mustardBottle
+      - pitcherBase
+      - powerDrill
+      - pringles
+      - puddingBox
+      - scissors
+      - soup
+      - sponge
+      - sugarbox
+      - tunaCan
+      - woodenBlock
+
+

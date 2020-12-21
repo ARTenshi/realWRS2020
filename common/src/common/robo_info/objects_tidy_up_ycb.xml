@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+
+  <category name="food items" room="house">
+    <object name="gelatin box" defaultLocation="drawer top open" />
+    <object name="pudding box" defaultLocation="drawer top open" />
+    <object name="apple" defaultLocation="drawer top open" />
+    <object name="sugar box" defaultLocation="drawer top open" />
+    <object name="pear" defaultLocation="drawer top open" />
+    <object name="chips can" defaultLocation="drawer top open" />
+    <object name="mustard bottle" defaultLocation="drawer top open" />
+    <object name="lemon" defaultLocation="drawer top open" />
+    <object name="tomato soup can" defaultLocation="drawer top open" />
+    <object name="cracker box" defaultLocation="drawer bottom open" />
+    <object name="strawberry" defaultLocation="drawer bottom open" />
+    <object name="orange" defaultLocation="drawer bottom open" />
+    <object name="tuna fish can" defaultLocation="drawer bottom open" />
+    <object name="master chef can" defaultLocation="drawer bottom open" />
+    <object name="plum" defaultLocation="drawer bottom open" />
+    <object name="banana" defaultLocation="drawer bottom open" />
+    <object name="peach" defaultLocation="drawer bottom open" />
+    <object name="potted meat can" defaultLocation="drawer bottom open" />
+  </category>
+
+  <category name="tool items" room="house">
+    <object name="small clamp" defaultLocation="tray 1" />
+    <object name="large clamp" defaultLocation="tray 1" />
+    <object name="extra large clamp" defaultLocation="tray 1" />
+    <object name="padlock" defaultLocation="tray 1" />
+    <object name="medium clamp" defaultLocation="tray 1" />
+    <object name="plastic nut" defaultLocation="tray 1" />
+    <object name="adjustable wrench" defaultLocation="tray 1" />
+    <object name="phillips screwdriver" defaultLocation="tray 1" />
+    <object name="hammer" defaultLocation="tray 2" />
+    <object name="small marker" defaultLocation="tray 2" />
+    <object name="scissors" defaultLocation="tray 2" />
+    <object name="key" defaultLocation="tray 2" />
+    <object name="flat screwdriver" defaultLocation="tray 2" />
+    <object name="large marker" defaultLocation="tray 2" />
+    <object name="power drill" defaultLocation="tray 2" />
+    <object name="wood block" defaultLocation="tray 2" />
+  </category>
+
+  <category name="task items" room="house">
+    <object name="timer" defaultLocation="basket 1" />
+    <object name="d toy airplane" defaultLocation="basket 1" />
+    <object name="l lego duplo" defaultLocation="basket 1" />
+    <object name="e toy airplane" defaultLocation="basket 1" />
+    <object name="e lego duplo" defaultLocation="basket 1" />
+    <object name="m lego duplo" defaultLocation="basket 1" />
+    <object name="h lego duplo" defaultLocation="basket 1" />
+    <object name="j toy airplane" defaultLocation="basket 1" />
+    <object name="f lego duplo" defaultLocation="basket 1" />
+    <object name="a lego duplo" defaultLocation="basket 1" />
+    <object name="i lego duplo" defaultLocation="basket 1" />
+    <object name="nine hole peg test" defaultLocation="basket 1" />
+    <object name="rubiks cube" defaultLocation="basket 1" />
+    <object name="d lego duplo" defaultLocation="basket 1" />
+    <object name="b toy airplane" defaultLocation="basket 1" />
+    <object name="b lego duplo" defaultLocation="basket 1" />
+    <object name="f toy airplane" defaultLocation="basket 1" />
+    <object name="c lego duplo" defaultLocation="basket 1" />
+    <object name="g lego duplo" defaultLocation="basket 1" />
+    <object name="colored wood blocks" defaultLocation="basket 1" />
+    <object name="c toy airplane" defaultLocation="basket 1" />
+    <object name="a toy airplane" defaultLocation="basket 1" />
+    <object name="k toy airplane" defaultLocation="basket 1" />
+    <object name="i toy airplane" defaultLocation="basket 1" />
+    <object name="j lego duplo" defaultLocation="basket 1" />
+    <object name="k lego duplo" defaultLocation="basket 1" />
+    <object name="g toy airplane" defaultLocation="basket 1" />
+    <object name="h toy airplane" defaultLocation="basket 1" />
+  </category>
+
+  <category name="shape items" room="house">
+    <object name="chain" defaultLocation="drawer left open" />
+    <object name="b cups" defaultLocation="drawer left open" />
+    <object name="golf ball" defaultLocation="drawer left open" />
+    <object name="a marbles" defaultLocation="drawer left open" />
+    <object name="racquetball" defaultLocation="drawer left open" />
+    <object name="f cups" defaultLocation="drawer left open" />
+    <object name="h cups" defaultLocation="drawer left open" />
+    <object name="softball" defaultLocation="drawer left open" />
+    <object name="dice" defaultLocation="drawer left open" />
+    <object name="e cups" defaultLocation="drawer left open" />
+    <object name="a cups" defaultLocation="drawer left open" />
+    <object name="mini soccer ball" defaultLocation="drawer left open" />
+    <object name="g cups" defaultLocation="drawer left open" />
+    <object name="i cups" defaultLocation="drawer left open" />
+    <object name="d cups" defaultLocation="drawer left open" />
+    <object name="j cups" defaultLocation="drawer left open" />
+    <object name="baseball" defaultLocation="drawer left open" />
+    <object name="c cups" defaultLocation="drawer left open" />
+    <object name="tennis ball" defaultLocation="drawer left open" />
+    <object name="foam brick" defaultLocation="drawer left open" />
+  </category>
+
+  <category name="kitchen items" room="house">
+    <object name="bowl" defaultLocation="container 1" />
+    <object name="sponge" defaultLocation="container 1" />
+    <object name="spatula" defaultLocation="container 1" />
+    <object name="bleach cleanser" defaultLocation="container 1" />
+    <object name="fork" defaultLocation="container 1" />
+    <object name="mug" defaultLocation="container 1" />
+    <object name="skillet" defaultLocation="container 2" />
+    <object name="pitcher base" defaultLocation="container 2" />
+    <object name="plate" defaultLocation="container 2" />
+    <object name="windex bottle" defaultLocation="container 2" />
+    <object name="knife" defaultLocation="container 2" />
+    <object name="wine glass" defaultLocation="container 2" />
+    <object name="spoon" defaultLocation="container 2" />
+  </category>
+
+
+  <category name="unknown" room="house">
+    <object name="unknown" defaultLocation="basket 2" />
+  </category>
+
+</categories>
+  
+

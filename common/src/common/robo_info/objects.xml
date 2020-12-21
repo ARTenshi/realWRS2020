@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+  <category name="category1" room="dining room">
+    <object name="mixed nuts" defaultLocation="coffee table" />
+    <object name="green spoon" defaultLocation="food cabinet" />
+    <object name="gray knife" defaultLocation="food cabinet" />
+    <object name="green dish" defaultLocation="rubbish bin" />
+    <object name="yellow dish" defaultLocation="rubbish bin" />
+    <object name="blueberry drink" defaultLocation="refrigerator" />
+    <object name="eggplant" defaultLocation="rubbish bin" />
+  </category>
+  <category name="category2" room="living room">
+    <object name="blue cup" defaultLocation="wall shelf" />
+    <object name="pink cup" defaultLocation="wall shelf"/>
+    <object name="orange biscuits" defaultLocation="food cabinet" />
+    <object name="yellow biscuits" defaultLocation="food cabinet" />
+    <object name="pink biscuits" defaultLocation="food cabinet" />
+    <object name="watering can" defaultLocation="rubbish bin" />
+    <object name="flashlight" defaultLocation="wall shelf" />
+    <object name="blue fork" defaultLocation="rubbish bin" />
+    <object name="green folk" defaultLocation="wall shelf" />
+    <object name="gray knife" defaultLocation="wall shelf" />
+    <object name="yellow clock" defaultLocation="coffee table" />
+    <object name="aluminum foil" defaultLocation="kitchen unit" />
+    <object name="green dish" defaultLocation="wall shelf" />
+    <object name="yellow dish" defaultLocation="wall shelf" />
+    <object name="pink bowl" defaultLocation="kitchen unit" />
+    <object name="blue bowl" defaultLocation="kitchen unit" />
+    <object name="wooden bowl" defaultLocation="food cabinet" />
+    <object name="brown pail" defaultLocation="wall shelf" />
+  </category>
+  <category name="category3" room="dining room">
+    <object name="mineral water" defaultLocation="rubbish bin"/>
+    <object name="oolong tea" defaultLocation="coffee table" />
+    <object name="ketchup" defaultLocation="refrigerator" />
+    <object name="canned mustard" defaultLocation="refrigerator" />
+    <object name="orange drink" defaultLocation="coffee table" />
+    <object name="green drink" defaultLocation="coffee table" />
+    <object name="tomato" defaultLocation="refrigerator" />
+    <object name="potato" defaultLocation="refrigerator" />
+    <object name="plant" defaultLocation="wall shelf" />
+    <object name="spray" defaultLocation="wall shelf" />
+    <object name="water bottle" defaultLocation="wall shelf" />
+    <object name="test_object" defaultLocation="wall shelf" />
+  </category>
+  <category name="unknown" room="living room">
+    <object name="unknown" defaultLocation="unknown storage" />
+  </category>
+</categories>
+

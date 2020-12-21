@@ -1,0 +1,128 @@
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+INFO:tensorflow:Created variable Conv/weights:0 with shape (3, 3, 3, 32) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv/BatchNorm/beta:0 with shape (32,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv/BatchNorm/gamma:0 with shape (32,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv/BatchNorm/moving_mean:0 with shape (32,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv/BatchNorm/moving_variance:0 with shape (32,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_1/weights:0 with shape (3, 3, 32, 64) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_1/BatchNorm/beta:0 with shape (64,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_1/BatchNorm/gamma:0 with shape (64,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_1/BatchNorm/moving_mean:0 with shape (64,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_1/BatchNorm/moving_variance:0 with shape (64,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_2/weights:0 with shape (3, 3, 64, 128) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_2/BatchNorm/beta:0 with shape (128,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_2/BatchNorm/gamma:0 with shape (128,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_2/BatchNorm/moving_mean:0 with shape (128,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_2/BatchNorm/moving_variance:0 with shape (128,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_3/weights:0 with shape (1, 1, 128, 64) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_3/BatchNorm/beta:0 with shape (64,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_3/BatchNorm/gamma:0 with shape (64,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_3/BatchNorm/moving_mean:0 with shape (64,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_3/BatchNorm/moving_variance:0 with shape (64,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_4/weights:0 with shape (3, 3, 64, 128) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_4/BatchNorm/beta:0 with shape (128,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_4/BatchNorm/gamma:0 with shape (128,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_4/BatchNorm/moving_mean:0 with shape (128,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_4/BatchNorm/moving_variance:0 with shape (128,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_5/weights:0 with shape (3, 3, 128, 256) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_5/BatchNorm/beta:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_5/BatchNorm/gamma:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_5/BatchNorm/moving_mean:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_5/BatchNorm/moving_variance:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_6/weights:0 with shape (1, 1, 256, 128) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_6/BatchNorm/beta:0 with shape (128,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_6/BatchNorm/gamma:0 with shape (128,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_6/BatchNorm/moving_mean:0 with shape (128,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_6/BatchNorm/moving_variance:0 with shape (128,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_7/weights:0 with shape (3, 3, 128, 256) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_7/BatchNorm/beta:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_7/BatchNorm/gamma:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_7/BatchNorm/moving_mean:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_7/BatchNorm/moving_variance:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_8/weights:0 with shape (3, 3, 256, 512) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_8/BatchNorm/beta:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_8/BatchNorm/gamma:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_8/BatchNorm/moving_mean:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_8/BatchNorm/moving_variance:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_9/weights:0 with shape (1, 1, 512, 256) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_9/BatchNorm/beta:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_9/BatchNorm/gamma:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_9/BatchNorm/moving_mean:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_9/BatchNorm/moving_variance:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_10/weights:0 with shape (3, 3, 256, 512) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_10/BatchNorm/beta:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_10/BatchNorm/gamma:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_10/BatchNorm/moving_mean:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_10/BatchNorm/moving_variance:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_11/weights:0 with shape (1, 1, 512, 256) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_11/BatchNorm/beta:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_11/BatchNorm/gamma:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_11/BatchNorm/moving_mean:0 with shape (256,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_11/BatchNorm/moving_variance:0 with shape (256,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_12/weights:0 with shape (3, 3, 256, 512) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_12/BatchNorm/beta:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_12/BatchNorm/gamma:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_12/BatchNorm/moving_mean:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_12/BatchNorm/moving_variance:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_13/weights:0 with shape (3, 3, 512, 1024) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_13/BatchNorm/beta:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_13/BatchNorm/gamma:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_13/BatchNorm/moving_mean:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_13/BatchNorm/moving_variance:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_14/weights:0 with shape (1, 1, 1024, 512) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_14/BatchNorm/beta:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_14/BatchNorm/gamma:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_14/BatchNorm/moving_mean:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_14/BatchNorm/moving_variance:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_15/weights:0 with shape (3, 3, 512, 1024) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_15/BatchNorm/beta:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_15/BatchNorm/gamma:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_15/BatchNorm/moving_mean:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_15/BatchNorm/moving_variance:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_16/weights:0 with shape (1, 1, 1024, 512) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_16/BatchNorm/beta:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_16/BatchNorm/gamma:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_16/BatchNorm/moving_mean:0 with shape (512,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_16/BatchNorm/moving_variance:0 with shape (512,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_17/weights:0 with shape (3, 3, 512, 1024) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_17/BatchNorm/beta:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_17/BatchNorm/gamma:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_17/BatchNorm/moving_mean:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_17/BatchNorm/moving_variance:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_18/weights:0 with shape (3, 3, 1024, 1024) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_18/BatchNorm/beta:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_18/BatchNorm/gamma:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_18/BatchNorm/moving_mean:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_18/BatchNorm/moving_variance:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_19/weights:0 with shape (3, 3, 1024, 1024) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_19/BatchNorm/beta:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_19/BatchNorm/gamma:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_19/BatchNorm/moving_mean:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_19/BatchNorm/moving_variance:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_20/weights:0 with shape (3, 3, 3072, 1024) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_20/BatchNorm/beta:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_20/BatchNorm/gamma:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_20/BatchNorm/moving_mean:0 with shape (1024,) and init <function zeros_initializer at 0xa66d8a30>
+INFO:tensorflow:Created variable Conv_20/BatchNorm/moving_variance:0 with shape (1024,) and init <function ones_initializer at 0xa650de30>
+INFO:tensorflow:Created variable Conv_21/weights:0 with shape (1, 1, 1024, 425) and init <function _initializer at 0xb6c8ae70>
+INFO:tensorflow:Created variable Conv_21/biases:0 with shape (425,) and init <function _initializer at 0xa5cb16b0>
+==3697== NVPROF is profiling process 3697, command: python ./yolo.py ../data/yolo.ckpt ../data/coco.names image:=/hsrb/head_rgbd_sensor/rgb/image_rect_color
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:872] ARMV7 does not support NUMA - returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: GK20A
+major: 3 minor: 2 memoryClockRate (GHz) 0.852
+pciBusID 0000:00:00.0
+Total memory: 1.85GiB
+Free memory: 1.12GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:755] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GK20A, pci bus id: 0000:00:00.0)
+Unhandled exception in thread started by 
+sys.excepthook is missing
+lost sys.stderr
+==3697== Generated result file: /home/ubuntu/catkin_ws/src/yolo_tf/scripts/profile.dat
+======== Error: Application received signal 2

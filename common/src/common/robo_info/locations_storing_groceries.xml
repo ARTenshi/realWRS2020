@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locations> 
+  <room name="kitchen" position="0.0 0.0 0.0 0.0">
+    <location name="room access" global_position="-2.31 -2.11 0.0 -1.11" put_position="0 0 0" isDoor="false" />
+    <location name="shelf right door" global_position="0.545 1.057 1.0 1.789" put_position="0 0 0" isDoor="false" />
+    <location name="shelf left door" global_position="0.170 0.973 1.0 1.786" put_position="0 0 0" isDoor="false" />
+    <location name="shelf bottom" global_position="-1.83 -3.05 0.515 -1.52" put_position="0 0 0" isDoor="false" />
+    <location name="shelf middle" global_position="-1.83 -3.05 0.805 -1.52" put_position="0 0 0" isDoor="false" />
+    <location name="shelf top" global_position="-1.83 -3.05 1.065 -1.52" put_position="0 0 0" isDoor="false" />
+    <location name="shelf category 0" global_position="-1.60 -3.43 0.51 -1.55" put_position="0 0 0.0" isDoor="false" comment="bottom left" /> 
+    <location name="shelf category 1" global_position="-2.03 -3.45 0.51 -1.54" put_position="0 0 0.0" isDoor="false" comment="bottom right" />
+    <location name="shelf category 2" global_position="-1.60 -3.43 0.81 -1.55" put_position="0 0 0.0" isDoor="false" comment="middle left" />
+    <location name="shelf category 3" global_position="-2.03 -3.45 0.81 -1.54" put_position="0 0 0.0" isDoor="false" comment="middle right" />
+    <location name="basket 1" global_position="-1.24 -2.92 0.33 -1.54" put_position="0 0 0" isDoor="false" />
+    <location name="kitchen table right" global_position="-0.83 -3.14 0.74 0.04" put_position="0 0 0" isDoor="false" />
+    <location name="kitchen table center" global_position="-0.84 -2.84 0.74 0.04" put_position="0 0 0" isDoor="false" />
+    <location name="kitchen table left" global_position="-0.84 -2.51 0.74 0.06" put_position="0 0 0" isDoor="false" />
+    <location name="unknown storage" global_position="-1.24 -2.92 0.33 -1.54" put_position="0 0 0" isDoor="false" />
+  </room>
+
+  <room name="kitchen" position="0.0 0.0 0.0 0.0">
+    <location name="0 search kitchen table right" global_position="-0.83 -3.14 0.74 0.04" put_position="0 0 0" isDoor="false" />
+    <location name="1 search kitchen table left" global_position="-0.84 -2.51 0.74 0.06" put_position="0 0 0" isDoor="false" />
+  </room>
+</locations>

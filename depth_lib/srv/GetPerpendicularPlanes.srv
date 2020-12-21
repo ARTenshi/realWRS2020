@@ -1,0 +1,7 @@
+geometry_msgs/Vector3Stamped axis
+uint64 minimum_points
+uint32 iterations
+float32 thickness
+float32 minimum_inlier_ratio
+---
+depth_lib/Plane[] planes

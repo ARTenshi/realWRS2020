@@ -1,0 +1,3 @@
+geometry_msgs/Vector3Stamped normal
+geometry_msgs/PointStamped center
+float32 area

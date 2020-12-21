@@ -1,0 +1,54 @@
+import rospy
+import moveit_commander
+
+from geometry_msgs.msg import PoseStamped
+
+rospy.init_node('move')
+
+arm_control = moveit_commander.MoveGroupCommander('arm')
+
+target_joints = {'arm_flex_joint': -2.45,'arm_lift_joint': 0.0,'arm_roll_joint': 0.0,'head_pan_joint': 0.0,'head_tilt_joint': -0.32,'wrist_flex_joint': 0.88,'wrist_roll_joint': 0.0}
+arm_control.go(target_joints,wait=True)
+arm_control.stop()
+arm_control.clear_pose_targets()
+
+arm_control.set_named_target('neutral')
+arm_control.go(wait=True)
+arm_control.stop()
+
+
+
+
+whole_body = moveit_commander.MoveGroupCommander("whole_body_weighted")
+whole_body.allow_replanning(True)
+whole_body.set_workspace([-3.0, -3.0, 3.0, 3.0])
+
+whole_body.set_pose_target([0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 1.0], 'hand_palm_link')
+whole_body.go(wait=True)
+
+
+p = PoseStamped()
+
+p.header.frame_id = "/map"
+
+p.pose.position.x = 0.0
+p.pose.position.y = 0.0
+p.pose.position.z = 1.0
+p.pose.orientation.w = 1.0
+p.pose.orientation.x = 0.0
+p.pose.orientation.y = 0.0
+p.pose.orientation.z = 0.0
+
+whole_body.set_pose_target(p, 'hand_palm_link')
+whole_body.go(wait=True)
+
+
+rosparam set /hsrb/omni_base_controller/base_coordinates "[odom_x,odom_y,odom_r]"
+rosparam set /hsrb/impedance_control/joint_names "[]"
+source catkin_ws/devel/setup.bash
+roslaunch navigation_tamagoya navigation_module.launch
+
+import rospy
+from navigation_tamagoya.nav_tool_lib import nav_module
+omni_base = nav_module("pumas")
+omni_base.go_rel(0.0, 0.0, -0.785, 10)

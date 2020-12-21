@@ -1,0 +1,4 @@
+<launch>
+  <!-- sample node -->
+  <node name="navigation_test" pkg="navigation_test" type="navigation_test_main.py" output="screen"/>
+</launch>

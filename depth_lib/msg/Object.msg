@@ -1,0 +1,5 @@
+geometry_msgs/PointStamped center
+geometry_msgs/PoseStamped graspPose
+geometry_msgs/PoseStamped approachPose
+float32 graspWidth
+float32[] colorHistogram

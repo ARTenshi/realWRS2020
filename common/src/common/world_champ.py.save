@@ -1,0 +1,76 @@
+import math
+
+#LOCATIONS = {'bar': (0, 0), 'bookcase': (0, 0)}
+LOCATIONS = {'entrance shelf': ((2.3, 1.0), .0),
+             'sideboard': ((9.70, -0.31), -0.86),
+             'kitchen rack': ((8.25, 0.88), 0.82),
+             'left rack': ((12.94, 2.51), -0.77),
+             'tv': ((10.85, 4.80), 1.66),
+             'kitchen table': ((6.77, 0.8), -0.83),
+             'desk': ((11.65, 3.19), 0.75),
+             'kitchen counter': ((6.25, 0.34), -2.39),
+             'left planks': ((6.26, 5.15), -2.41),
+             'bed': ((4.13, -2.23), -2.38),
+             'right rack': ((12.94, 2.51), -0.07),
+             'teepee': ((5.24, -3.42), -1.47),
+             'bookcase': ((7.97, 3.44), -1.69),
+             'coffee table': ((10.7, 4.78), 2.3),
+             'bistro table': ((8.09, 6.56), -2.97),
+             'sofa': ((10.29, 3.33), 2.37),
+             'little desk': ((6.27, -3.14), -0.78),
+             'balcony shelf': ((7.86, 7.88), 0.68),
+             'right planks': ((5.99, 6.02), 3.08),
+             'fridge': ((7.05, -1.04), -2.27),
+             'kitchen shelf': ((7.37, 1.48), 0.95 ),
+             
+             'kitchen': ((7.37, 1.48), 0),
+             'bedroom': ((4.13, -2.23), -2.38),
+             'living room': ((10.85, 4.80), 1.66),
+             'balcony shelf': ((7.86, 7.88), 0.68),
+             'entrance': ((2.0, 0.0), 0),
+             'corridor': ((5.1,1.7),0)}
+
+
+GPSR_INITIAL_POSE = ((-0.04, 0), 0)
+GPSR_COMMAND_POSE = ((4.80,-0.89),-2.41)
+GPSR_FINAL_POSE = ((12, 0.1),0)
+EEGPSR_INITIAL_POSE = ((11.9, 1.32), -0.79)
+EEGPSR_COMMAND_POSE = ((13.3, -0.23), -0.79)
+EEGPSR_FINAL_POSE = ((0, 0),0)
+SG_INITIAL_POSE = ((7.37, 1.48), 0.95)
+
+DOOR_POSES = [((-5.1, 4.26), -math.pi/2),
+              ((-1.2, 0.), math.pi),
+              ((-0.6, 6.6), -math.pi/2),
+              ((-1.94, 12.), 0.)]
+
+PLACEMENT_HEIGHTS = {
+             'entrance shelf': 0.934,
+             'sideboard': 0.903,
+             'kitchen rack': 0.903,
+             'left rack': 0.903,
+             'tv': .0,
+             'kitchen table': 0.903,
+             'desk': 0.903,
+             'kitchen counter': 0.903,
+             'left planks': 0.903,
+             'bed': .0,
+             'right rack': 0.903,
+             'teepee': .0,
+             'bookcase': 0.903, e_once() 'coffee table': 0.705,
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 696, in 
+receive_once 'bistro table': .705,
+    p.read_messages(b, msg_queue, sock) 'sofa':.0,
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_service.py", line 353, in 
+read_messages 'little desk': 0.705,
+    self._             'balcony shelf': 0.705,
+             'right planks': 0.705,
+             'fridge': 0.705,
+             'kitchen shelf': 0.705,#[0.10, 0.51, 0.74, 1.06, 1.47]
+             'kitchen': .0,
+             'bedroom': .0,
+             'living room': .0,
+             'balcony shelf': .0,
+             'entrance': .0,
+             'corridor': .0
+             }

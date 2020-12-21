@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+
+  <category name="toys" room="house">
+    <object name="cube" defaultLocation="drawer left open" />
+    <object name="headgehog" defaultLocation="drawer left open" />
+    <object name="toy block" defaultLocation="drawer left open"/>
+    <object name="fire engine" defaultLocation="drawer left open"/>
+    <object name="whistle" defaultLocation="drawer left open"/>
+    <object name="police car" defaultLocation="drawer left open"/>
+    <object name="horn" defaultLocation="drawer left open"/>
+  </category>
+
+  <category name="food" room="house">
+    <object name="potato" defaultLocation="tray 1" />
+    <object name="calot" defaultLocation="tray 1"/>
+    <object name="green apple" defaultLocation="tray 1"/>
+    <object name="orange" defaultLocation="tray 1"/>
+    <object name="eggplant" defaultLocation="tray 1"/>
+    <object name="pepper" defaultLocation="tray 1"/>
+    <object name="paprika" defaultLocation="tray 1"/>
+  </category>
+
+  <category name="snaks" room="house">
+    <object name="bread" defaultLocation="tray 1" />
+    <object name="chipstar" defaultLocation="tray 1"/>
+    <object name="mustard" defaultLocation="tray 1"/>
+    <object name="ketchap" defaultLocation="tray 1"/>
+  </category>
+
+  <category name="drinks" room="house">
+    <object name="blueberry juice" defaultLocation="tray 2"/>
+    <object name="orange juice" defaultLocation="tray 2"/>
+    <object name="green tea" defaultLocation="tray 2"/>
+    <object name="dr pepper" defaultLocation="tray 2"/>
+  </category>
+
+  <category name="tableware" room="house">
+    <object name="blown bottle" defaultLocation="drawer top open" />
+    <object name="yellow bottle" defaultLocation="drawer top open"/>
+    <object name="yellow dish" defaultLocation="drawer top open" />
+    <object name="blue cup" defaultLocation="drawer top open"/>
+    <object name="pink cup" defaultLocation="drawer top open"/>
+    <object name="green cup" defaultLocation="drawer top open"/>
+  </category>
+
+  <category name="tools" room="dining room">
+    <object name="blue pen" defaultLocation="drawer bottom open" />
+    <object name="blush" defaultLocation="drawer bottom open"/>
+    <object name="flash light" defaultLocation="drawer bottom open"/>
+  </category>
+
+  <category name="unknown" room="dining room">
+    <object name="unknown" defaultLocation="unknown storage" />
+  </category>
+
+</categories>
+  
+

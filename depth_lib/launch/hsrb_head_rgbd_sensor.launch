@@ -1,0 +1,9 @@
+<launch>
+
+<node pkg="depth_lib" type="depth.py" name="depth_lib">
+      <remap from="camera_info" to="/hsrb/head_rgbd_sensor/depth_registered/camera_info"/>
+      <remap from="rgb_image" to="/hsrb/head_rgbd_sensor/rgb/image_rect_color"/>
+      <remap from="depth_image" to="/hsrb/head_rgbd_sensor/depth_registered/image"/>
+</node>
+
+</launch>

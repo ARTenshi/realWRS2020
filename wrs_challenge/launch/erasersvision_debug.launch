@@ -1,0 +1,11 @@
+<launch>
+
+  <node name="object_finder_srv" pkg="erasers_object_finder" type="object_finder_srv" args="-debug -dy_offset 0.04" respawn="true" output="screen"/>
+
+  <node name="space_finder_srv" pkg="erasers_object_finder" type="space_finder_srv" args="-debug  -dy_offset 0.04" respawn="true" output="screen"/>
+
+  <node name="front_line_srv" pkg="erasers_line_finder" type="front_line_srv" args="-dy_offset 0.02 -conf /workspace/catkin_ws/src/wrs2020/mapping/src/erasers_tools/erasers_line_conf.yaml" respawn="true" output="screen"/>
+
+  <node name="front_point_srv" pkg="erasers_line_finder" type="front_point_srv" args="-dy_offset 0.02 -conf /workspace/catkin_ws/src/wrs2020/mapping/src/erasers_tools/erasers_point_conf.yaml" respawn="true" output="screen"/>
+
+</launch>

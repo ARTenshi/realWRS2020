@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find navigation_tamagoya)/launch/navigation_module.launch" />
+  <include file="$(find wrs_challenge)/launch/erasersvision.launch" />
+  <include file="$(find wrs_challenge)/launch/tidyup.launch" />
+</launch>
