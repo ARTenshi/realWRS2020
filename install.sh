@@ -23,8 +23,9 @@ sudo apt-get -y install ros-melodic-gmapping
 sudo apt-get install -y zbar-tools
 sudo apt-get install -y build-essential libzbar-dev
 
-cd /workspace/catkin_ws/src/wrs2020/autolab_core
-sudo python setup.py install
+cd /workspace/catkin_ws/src/wrs2020
+git clone https://github.com/BerkeleyAutomation/autolab_core.git
+sudo python /workspace/catkin_ws/src/wrs2020/autolab_core/setup.py install
 
 pip install autolab_core
 pip install tensorflow==1.2.0 --ignore-installed
