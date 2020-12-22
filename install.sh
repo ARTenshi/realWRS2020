@@ -18,10 +18,12 @@ sudo apt-get install -y ros-melodic-vision-opencv
 sudo apt-get install -y ros-melodic-map-server
 sudo apt-get install -y ros-melodic-tf2-bullet
 sudo apt-get install -y ros-melodic-sound-play
-sudo apt-get -y install ros-melodic-amcl
-sudo apt-get -y install ros-melodic-gmapping
+sudo apt-get install -y ros-melodic-amcl
+sudo apt-get install -y ros-melodic-gmapping
+sudo apt-get install -y python-numpy
 sudo apt-get install -y zbar-tools
 sudo apt-get install -y build-essential libzbar-dev
+sudo apt-get install -y ros-melodic-smach ros-melodic-smach-viewer
 
 cd /workspace/catkin_ws/src/wrs2020
 git clone https://github.com/BerkeleyAutomation/autolab_core.git
