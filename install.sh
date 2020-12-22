@@ -31,7 +31,7 @@ pip install tensorflow==1.2.0 --ignore-installed
 pip install reportlab
 pip install zbar
 
-cd ~/workspace
+cd /workspace
 wget http://dlib.net/files/dlib-19.6.tar.bz2
 tar xvf dlib-19.6.tar.bz2
 cd dlib-19.6/
@@ -41,4 +41,4 @@ cmake ..
 cmake --build . --config Release
 sudo make install
 sudo ldconfig
-cd ~/workspace
+cd /workspace
