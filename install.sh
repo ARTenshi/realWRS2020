@@ -30,6 +30,7 @@ sudo python /workspace/catkin_ws/src/wrs2020/autolab_core/setup.py install
 pip install autolab_core
 pip install tensorflow==1.2.0 --ignore-installed
 pip install reportlab
+pip install numpy
 pip install zbar
 
 cd /workspace
