@@ -28,6 +28,7 @@ sudo apt-get install -y ros-melodic-smach ros-melodic-smach-viewer
 cd /workspace/catkin_ws/src/wrs2020
 rm -r /workspace/catkin_ws/src/wrs2020/autolab_core
 git clone https://github.com/BerkeleyAutomation/autolab_core.git /workspace/catkin_ws/src/wrs2020/autolab_core
+cd /workspace/catkin_ws/src/wrs2020/autolab_core
 sudo python /workspace/catkin_ws/src/wrs2020/autolab_core/setup.py install
 
 pip install autolab_core
