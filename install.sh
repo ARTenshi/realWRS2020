@@ -25,17 +25,17 @@ sudo apt-get install -y zbar-tools
 sudo apt-get install -y build-essential libzbar-dev
 sudo apt-get install -y ros-melodic-smach ros-melodic-smach-viewer
 
-cd /workspace/catkin_ws/src/wrs2020
-rm -r /workspace/catkin_ws/src/wrs2020/autolab_core
-git clone https://github.com/BerkeleyAutomation/autolab_core.git /workspace/catkin_ws/src/wrs2020/autolab_core
-cd /workspace/catkin_ws/src/wrs2020/autolab_core
-sudo python /workspace/catkin_ws/src/wrs2020/autolab_core/setup.py install
-
 pip install autolab_core
 pip install tensorflow==1.2.0 --ignore-installed
 pip install reportlab
 pip install numpy
 pip install zbar
+
+cd /workspace/catkin_ws/src/wrs2020
+rm -r /workspace/catkin_ws/src/wrs2020/autolab_core
+git clone https://github.com/BerkeleyAutomation/autolab_core.git /workspace/catkin_ws/src/wrs2020/autolab_core
+cd /workspace/catkin_ws/src/wrs2020/autolab_core
+sudo python /workspace/catkin_ws/src/wrs2020/autolab_core/setup.py install
 
 cd /workspace
 wget http://dlib.net/files/dlib-19.6.tar.bz2
