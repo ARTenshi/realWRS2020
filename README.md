@@ -7,35 +7,35 @@ Please, follow the indications [here](https://github.com/hsr-project/tmc_wrs_doc
 In a new terminal in your virtual IDE at [http://localhost:3001](http://localhost:3001) first, create a workspace:
 
 ```
-cd ~/workspace
+cd /workspace
 mkdir -p catkin_ws/src
 ```
 
 Then, clone this repository into the src folder:
 
 ```
-cd ~/workspace/catkin_ws/src
+cd /workspace/catkin_ws/src
 git clone https://github.com/ARTenshi/wrs2020.git
 ```
 
 Then, install the necessary libraties and packages by entering:
 
 ```
-cd ~/workspace/catkin_ws/src/wrs2020
+cd /workspace/catkin_ws/src/wrs2020
 sudo ./install.sh
 ```
 
 Additionally, in case you haven't installed OpenCV, please enter
 
 ```
-cd ~/workspace/catkin_ws/src/wrs2020
+cd /workspace/catkin_ws/src/wrs2020
 sudo ./install-opencv.sh
 ```
 
 Finally, compile your project:
 
 ```
-cd ~/workspace/catkin_ws
+cd /workspace/catkin_ws
 catkin_make
 ```
 
@@ -48,7 +48,7 @@ In a text editor, add the following lines to your ~/.bashrc file
 
 > rosparam set /hsrb/impedance_control/joint_names "[]"
 
-> source ~/workspace/carkin_ws/devel/setup.bash
+> source /workspace/carkin_ws/devel/setup.bash
 
 
 Finally, kill the default localisation node
