@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 
 from time import strftime, gmtime
 
-IMAGE_SAVE_PATH = '/home/roboworks/catkin_ws/src/mapping/src/erasers_vision/data/'
+IMAGE_SAVE_PATH = '/home/roboworks/src/mapping/src/erasers_vision/data/'
 
 class DetectObject(smach.State):
 	def __init__(self, robot, delay = 1.0, tilt = -0.70, distance = 0.80, height_diff = 0.30, wrist_roll = 0.0, depth = 1.20, width = 0.80, height_min = 0.40, height_max = 0.80, min_area = 250, max_area = 100000, plane = False, bigplane = False, vertical = False, tf_buffer = None, timeout = None):

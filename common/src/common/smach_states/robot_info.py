@@ -59,7 +59,7 @@ class RobotInfo(object):
         ---
         dictionary of object list
         """
-        PATH_TO_XML = "/workspace/catkin_ws/src/wrs2020/common/src/common/robo_info/"
+        PATH_TO_XML = "/workspace/src/wrs2020/common/src/common/robo_info/"
 
         # which room
         if task == "tidy up":
@@ -98,7 +98,7 @@ class RobotInfo(object):
         dictionary of object list
         """
 
-        PATH_TO_XML = "/workspace/catkin_ws/src/wrs2020/common/src/common/robo_info/"
+        PATH_TO_XML = "/workspace/src/wrs2020/common/src/common/robo_info/"
         # which room
         if task == "tidy up":
             PATH_TO_XML += "locations_tidy_up.xml"

@@ -31,11 +31,11 @@ pip install reportlab
 pip install numpy
 pip install zbar
 
-cd /workspace/catkin_ws/src/wrs2020
-rm -r /workspace/catkin_ws/src/wrs2020/autolab_core
+cd /workspace/src/wrs2020
+rm -r /workspace/src/wrs2020/autolab_core
 git clone https://github.com/BerkeleyAutomation/autolab_core.git /workspace/catkin_ws/src/wrs2020/autolab_core
-cd /workspace/catkin_ws/src/wrs2020/autolab_core
-sudo python /workspace/catkin_ws/src/wrs2020/autolab_core/setup.py install
+cd /workspace/src/wrs2020/autolab_core
+sudo python /workspace/src/wrs2020/autolab_core/setup.py install
 
 cd /workspace
 wget http://dlib.net/files/dlib-19.6.tar.bz2

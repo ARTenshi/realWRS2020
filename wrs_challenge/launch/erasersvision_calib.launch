@@ -1,5 +1,5 @@
 <launch>
 
-  <node name="front_line_srv" pkg="erasers_line_finder" type="front_line_srv" args="-debug -dy_offset 0.02 -conf /workspace/catkin_ws/src/wrs2020/mapping/src/erasers_tools/erasers_line_conf.yaml" respawn="true" output="screen"/>
+  <node name="front_line_srv" pkg="erasers_line_finder" type="front_line_srv" args="-debug -dy_offset 0.02 -conf /workspace/src/wrs2020/mapping/src/erasers_tools/erasers_line_conf.yaml" respawn="true" output="screen"/>
 
 </launch>

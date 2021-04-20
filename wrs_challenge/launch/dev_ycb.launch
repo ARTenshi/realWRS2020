@@ -8,7 +8,7 @@
     </node>
 
     <!-- yolo_tf -->
-    <node pkg="yolo_tf" type="yolo.py" name="yolo_test" args="--ckpt /workspace/catkin_ws/src/wrs2020/yolo_tf/data/yolov3.ckpt --names /workspace/catkin_ws/src/wrs2020/yolo_tf/data/coco.names --ckpt1 /workspace/catkin_ws/src/wrs2020/yolo_tf/data/ycb_200326/data.ckpt-449000 --names1 /workspace/catkin_ws/src/wrs2020/yolo_tf/data/ycb_200326/data.names --type1 classifier" output="screen">
+    <node pkg="yolo_tf" type="yolo.py" name="yolo_test" args="--ckpt /workspace/src/wrs2020/yolo_tf/data/yolov3.ckpt --names /workspace/src/wrs2020/yolo_tf/data/coco.names --ckpt1 /workspace/src/wrs2020/yolo_tf/data/ycb_200326/data.ckpt-449000 --names1 /workspace/src/wrs2020/yolo_tf/data/ycb_200326/data.names --type1 classifier" output="screen">
         <remap from="image" to="/hsrb/head_rgbd_sensor/rgb/image_rect_color"/>
     </node>
    

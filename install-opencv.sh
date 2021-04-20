@@ -1,4 +1,4 @@
-cd /workspace/catkin_ws/src/wrs2020
+cd /workspace/src/wrs2020
 sudo apt-get install unzip
 unzip toinstall/opencv-3.4.3.zip -d /workspace
 unzip toinstall/opencv_contrib-3.4.3.zip -d /workspace
